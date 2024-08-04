@@ -1,0 +1,85 @@
+*{
+  font-family: "Fredoka", sans-serif;
+}
+
+
+
+body{
+ background-repeat: no-repeat;
+ background-image: url("https://s0.smartresize.com/wallpaper/628/441/HD-wallpaper-light-pink-blue-smoke-plain-blue-background-abstract-thumbnail.jpg") ;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+a{
+  text-decoration: none;
+}
+
+.myButton{
+ background: none;
+ border: none;
+ background: #edf7b7;
+ color: black;
+ font-size: 1rem;
+ padding: 15px;
+ border-radius: 40px;
+}
+
+.myButton:hover{
+  background-color: #cbf6cd ;
+  color:#524313  ;
+
+}
+
+.myTittle{
+  font-size: 3rem;
+  color: #d9f537;
+  margin-bottom: 30px;
+  font-family: "Pacifico", cursive;
+
+}
+
+p{
+ font-size: 1rem;
+ color:#74783c;
+
+}
+
+.myTittleCard{
+   font-size: 1.8rem;
+   color: #d9f537;
+   font-family: "Pacifico", cursive;
+
+}
+
+@media(max-width:876px){
+  .myTittle{
+     font-size: 1.5rem;
+     margin-bottom: 5px;
+
+  }
+
+ .contentland{
+ /* From https://css.glass */
+ background: rgba(109, 136, 58, 0.34);
+ border-radius: 16px;
+ box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+ backdrop-filter: blur(9.7px);
+ -webkit-backdrop-filter: blur(9.7px);
+ border: 1px solid rgba(109, 136, 58, 0.44);
+ padding: 20px;
+
+  }
+
+ 
+
+}
+
+.centered-container {
+    display: grid;
+    place-items: center;
+    height: 400%; /* Ajusta según sea necesario */
+    width: 100%;
+  }
+
+
